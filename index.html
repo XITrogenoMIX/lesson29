@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=а, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+form{
+width: 500px;
+background-color: rgb(230, 185, 19);
+padding: 300px;
+}
+.label {
+    display: block;
+    transition: 1s
+}
+.input {
+    width: 250px;
+}
+input {
+    display: block;
+}
+textarea {
+    display: block;
+    resize: none;
+    margin-top: 65px;
+}
+button{
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+}
+
+label:focus-within {
+    color: blue;
+    font-size: 25px;
+}
+    </style>
+</head>
+<body>
+    <form action="">
+<h1>Написати</h1>
+
+<label for="">
+ Name
+ <input class="input" type="text" />
+</label>
+<label for="">
+    Email
+    <input class="input" type="email" />
+</label>
+
+<label for="">
+    Password
+    <input class="input" type="password" />
+</label>
+
+<fieldset>
+    <legend>
+        Choose your language
+    </legend>
+
+    <label for="">
+        HTML
+        <input type="checkbox"/>
+    </label>
+
+<label for="">
+    CSS
+    <input type="checkbox" />
+</label>
+
+<label for="">
+    JavaScript
+    <input type="checkbox"/>
+</label>
+
+</fieldset>
+
+<label for="">
+    Choose your car
+</label>
+
+<select name="" id="">
+
+    <optgroup label="German cars">
+<option value="">BMW</option>
+<option value="">Audi</option>
+<option value="">Mersedes</option>
+<option value="">Panther</option>
+    </optgroup>
+
+<optgroup label="Italian cars">
+    <option value="">Lamborghini</option>
+    <option value="">Ferari</option>
+    <option value="">L3</option>
+</optgroup>
+
+</select>
+
+<textarea name=""></textarea>
+<button>
+    Submit
+</button>
+
+    </form>
+</body>
+</html>
